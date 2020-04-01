@@ -1,7 +1,3 @@
-provider "azurerm" {
-  features {}
-}
-
 resource "azurerm_resource_group" "gaurev" {
   name     = "my-resources"
   location = "West Europe"
